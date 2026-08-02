@@ -7,7 +7,7 @@
 }
 
 body {
-  background: #f5efe6;
+  background: whitesmoke;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,9 +17,9 @@ body {
 }
 
 .container {
-  background-color: white;
+  background-color: papayawhip;
   border-radius: 1rem;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   width: 100%;
   max-width: 600px;
   overflow: hidden;
@@ -40,13 +40,13 @@ body {
 /* START SCREEN */
 
 #start-screen h1 {
-  color: #e86a33;
+  color: #b97152;
   margin-bottom: 20px;
   font-size: 2.5rem;
 }
 
 #start-screen p {
-  color: #666;
+  color: black;
   margin-bottom: 30px;
   font-size: 1.1rem;
 }
@@ -56,7 +56,7 @@ body {
 }
 
 #question-text {
-  color: #333;
+  color: black;
   font-size: 1.5rem;
   margin-bottom: 1rem;
   line-height: 1.4;
@@ -65,7 +65,7 @@ body {
 .quiz-info {
   display: flex;
   justify-content: space-between;
-  color: #666;
+  color: black;
   margin-bottom: 10px;
 }
 
@@ -101,7 +101,7 @@ body {
 .answer-btn.incorrect {
   background-color: #fff0f0;
   border-color: #ffbdbd;
-  color: #dc3545;
+  color: red;
 }
 
 .progress-bar {
